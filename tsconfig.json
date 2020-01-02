@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target":"ESNext",
+        "outDir": "./build/",
+    },
+    "include": [
+        "packages/**/*",
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
