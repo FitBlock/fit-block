@@ -1,14 +1,14 @@
 {
   "name": "fit-block",
+  "version": "1.0.0",
   "scripts": {
-    "build": "npx tsc",
-    "dev": "npx tsc -w",
+    "build":"npx lerna run build",
     "bootstrap": "npx lerna bootstrap",
     "bootstrapc": "npx lerna bootstrap --registry=https://registry.npm.taobao.org",
     "installc": "npm install --registry=https://registry.npm.taobao.org",
     "list": "npx lerna list",
     "link": "npx lerna link",
-    "test": "npx lerna run test"
+    "test": "npm run build && npx lerna run test"
   },
   "keywords": [
     "fit",
