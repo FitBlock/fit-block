@@ -6,6 +6,11 @@ clone project
 ```sh
 git clone --recursive git@github.com:FitBlock/fit-block.git
 ```
+install
+```sh
+npm install
+npm run bootstrap
+```
 add components
 ```sh
 # example
