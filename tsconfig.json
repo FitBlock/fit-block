@@ -2,12 +2,12 @@
     "compilerOptions": {
         "module": "commonjs",
         "target":"ESNext",
-        "outDir": "./build/",
+        "outDir": "./build/"
     },
     "include": [
-        "packages/**/*",
+        "components/**/*"
     ],
     "exclude": [
-        "node_modules",
+        "node_modules"
     ]
 }
