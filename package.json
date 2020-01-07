@@ -2,7 +2,7 @@
   "name": "fit-block",
   "version": "1.0.0",
   "scripts": {
-    "build":"npx lerna run build",
+    "build": "npx lerna run build",
     "bootstrap": "npx lerna bootstrap",
     "bootstrapc": "npx lerna bootstrap --registry=https://registry.npm.taobao.org",
     "installc": "npm install --registry=https://registry.npm.taobao.org",
@@ -20,6 +20,6 @@
   "devDependencies": {
     "lerna": "^3.20.1",
     "@types/node": "^12.12.14",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.4"
   }
 }
