@@ -5,10 +5,11 @@ a blockchain dev framework
 clone project
 ```sh
 git clone --recursive git@github.com:FitBlock/fit-block.git
+git submodule update --remote
 # or
 # git clone git@github.com:FitBlock/fit-block.git
 # git submodule init
-# git submodule update
+# git submodule update --remote
 ```
 install
 ```sh
