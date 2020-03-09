@@ -1,6 +1,15 @@
 # fit-block
 a blockchain system which using JS implement
 
+# build Node
+```sh
+git clone --recursive git@github.com:FitBlock/fit-block.git
+git submodule update --remote
+cd ./fit-block/components/fit-block-ui
+npm run build
+npm run web
+```
+
 # develop
 clone project
 ```sh
