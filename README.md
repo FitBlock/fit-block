@@ -1,5 +1,5 @@
 # fit-block
-a blockchain dev framework
+a blockchain system which using JS implement
 
 # develop
 clone project
