@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx lerna run build",
-    "bootstrap": "npx lerna bootstrap",
-    "bootstrapc": "npx lerna bootstrap --registry=https://registry.npm.taobao.org",
+    "bootstrap": "npx lerna bootstrap --unsafe-perm",
+    "bootstrapc": "npx lerna bootstrap --registry=https://registry.npm.taobao.org  --unsafe-perm",
     "installc": "npm install --registry=https://registry.npm.taobao.org",
     "list": "npx lerna list",
     "link": "npx lerna link",
