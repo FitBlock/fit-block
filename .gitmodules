@@ -1,12 +1,12 @@
 [submodule "components/fit-block-core"]
 	path = components/fit-block-core
-	url = git@github.com:FitBlock/fit-block-core.git
+	url = https://github.com/FitBlock/fit-block-core.git
 [submodule "components/fit-block-store"]
 	path = components/fit-block-store
-	url = git@github.com:FitBlock/fit-block-store.git
+	url = https://github.com/FitBlock/fit-block-store.git
 [submodule "components/fit-block-ui"]
 	path = components/fit-block-ui
-	url = git@github.com:FitBlock/fit-block-ui.git
+	url = https://github.com/FitBlock/fit-block-ui.git
 [submodule "components/fit-block-p2p"]
 	path = components/fit-block-p2p
-	url = git@github.com:FitBlock/fit-block-p2p.git
+	url = https://github.com/FitBlock/fit-block-p2p.git
