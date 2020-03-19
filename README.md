@@ -16,10 +16,12 @@ clone project
 ```sh
 git clone --recursive git@github.com:FitBlock/fit-block.git
 git submodule update --remote
+git submodule foreach git checkout master
 # or
 # git clone git@github.com:FitBlock/fit-block.git
 # git submodule init
 # git submodule update --remote
+# git submodule foreach git checkout master
 ```
 install
 ```sh
